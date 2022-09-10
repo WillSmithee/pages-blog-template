@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     '~/content',
     '~/functions',
   ],
-  plugins: ['~/plugins/ckeditor-nuxt'],
+  // plugins: ['~/plugins/ckeditor-nuxt'],
   modules: ['@nuxt/content', '@nuxt/ui', '@nuxtjs/tailwindcss']
   // modules: ['@nuxt/content', '@nuxt/ui']
 })
