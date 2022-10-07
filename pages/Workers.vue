@@ -7,35 +7,34 @@
             Cloudflare Workers
           </h2>
         </div>
-        <div class="mt-12 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
-
-
-          <NuxtLink to="/worker/hello-world">Hello World</NuxtLink>
-
-          <!-- <ContentList path="/blog" v-slot="{ list }">
-            <div v-for="article in list" :key="article._path"
-              class="flex flex-col justify-between rounded-lg border border-gray-200 p-4">
-              <nuxt-link :href="article._path">
-                <p class="text-xl text-gray-900">{{ article.title }}</p>
-                <img class="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56"
-                  :src="getImgUrl(article.image)">
-                <p class="mt-3 text-gray-500">{{ article.description }}</p>
-              </nuxt-link>
-              <div class="mt-6">
-                <a :href="`?author=${article.author}`" class="text-sm font-medium text-gray-900">
-                  {{ article.author }}
-                </a>
-                <div class="text-sm text-gray-500">
-                </div>
-                <div class="space-x-1">
-                  <span v-for="tag in article.tags" :key="tag"
-                    class="inline-block bg-purple-500 px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white">{{
-                        tag
-                    }}</span>
-                </div>
-              </div>
-            </div>
-          </ContentList> -->
+        <div class="text-3xl mt-12 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12 ">
+          <header>
+            <nav>
+              <ul class="space-y-5">
+                <li>
+                  <NuxtLink to="/worker/codeclub-1">Code Club 1</NuxtLink>
+                </li>
+                <li>
+                  <NuxtLink to="/worker/codeclub-2">Code Club 2</NuxtLink>
+                </li>
+                <li>
+                  <NuxtLink to="/worker/codeclub-3">Code Club 3</NuxtLink>
+                </li>
+                <li>
+                  <NuxtLink to="/worker/geolocation-hello-world">geolocation-hello-world</NuxtLink>
+                </li>
+                <!-- <li>
+                  <NuxtLink to="/worker/codeclub-4">Code Club 4</NuxtLink>
+                </li> -->
+                <!-- <li>
+                  <NuxtLink to="/worker/codeclub-5">Code Club 5</NuxtLink>
+                </li> -->
+                <!-- <li>
+                  <NuxtLink to="/worker/codeclub-6">Code Club 6</NuxtLink>
+                </li> -->
+              </ul>
+            </nav>
+          </header>
         </div>
       </div>
     </main>
@@ -59,4 +58,5 @@
 </script>
 
 <style>
+
 </style>

@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <client-only placeholder="loading...">
         <ckeditor-nuxt v-model="contentHolder" :config="editorConfig" />
     </client-only>
@@ -23,4 +23,4 @@ export default {
         }
     }
 }
-</script>
+</script> -->

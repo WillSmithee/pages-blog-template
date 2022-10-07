@@ -32,7 +32,7 @@
               x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
           </span>
         </NuxtLink>
-        <NuxtLink to="/createblogpost"
+        <!-- <NuxtLink to="/createblogpost"
           class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900"
           x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
           <span class="block">Create Blog Post</span>
@@ -42,7 +42,7 @@
               x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300"
               x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
           </span>
-        </NuxtLink>
+        </NuxtLink> -->
       </nav>
 
       <!-- <div class="relative z-10 inline-flex items-center space-x-3 md:ml-5 lg:justify-end">
