@@ -1,5 +1,4 @@
-$\definecolor{cf-orange}{RGB}{246, 130, 31}\definecolor{cf-blue}{RGB}{0, 85, 220}$
-# $\textcolor{cf-orange}{\textsf{Assignment  6}}$ - Create A Pages Website
+# $\definecolor{cf-orange}{RGB}{246, 130, 31}\definecolor{cf-blue}{RGB}{0, 85, 220}\textcolor{cf-orange}{\textsf{Assignment  6}}$ - Create A Pages Website
 
 Copy, Configure and Deploy a Pages website that showcases Workers you’ve created.
  1. Clone the pages-blog-template repository. (click: ```Use this template```)
