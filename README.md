@@ -3,7 +3,7 @@ $\definecolor{cf-orange}{RGB}{246, 130, 31}\definecolor{cf-blue}{RGB}{0, 85, 220
 
 Copy, Configure and Deploy a Pages website that showcases Workers you’ve created.
  1. Clone the pages-blog-template repository. (click: ```Use this template```)
- 1. Run ```npm install```) inside of the cloned repository’s directory
+ 1. Run ```npm install``` inside of the cloned repository’s directory
  1. Create triggers for each of your workers:
     - $[\textcolor{cf-orange}{\textsf{WORKER NAME}}].[\textcolor{cf-blue}{\textsf{BASE DOMAIN}}]$  (e.g. $\textcolor{cf-orange}{\textsf{code-club-3}}.\textcolor{cf-blue}{\textsf{example.com}}$)
  3. In the cloned repository add a ```.env``` file (or modify existing) so that the base domain for your workers is specified.
