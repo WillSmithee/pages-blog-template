@@ -10,9 +10,8 @@
 
 <script setup>
 const config = useRuntimeConfig()
-console.log('Runtime config:', config)
 if (process.server) {
-  console.log('API secret:', config.apiSecret)
+  console.log('BASE_DOMAIN: %o', config.BASE_DOMAIN)
 }
 </script>
 

@@ -3,7 +3,7 @@ import { fileURLToPath } from 'url'
 
 export default defineNuxtConfig({
   publicRuntimeConfig: {
-    API_BASE_URL: process.env.API_BASE_URL
+    BASE_DOMAIN: process.env.BASE_DOMAIN
   },
   alias: {
     'content': fileURLToPath(new URL('./functions', import.meta.url))

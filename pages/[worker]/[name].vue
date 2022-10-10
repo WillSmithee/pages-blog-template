@@ -17,7 +17,7 @@
 
 <script setup>
 const route = useRoute();
-const workerUrl = `https://${route.params.name}.willsmithee.com/`
+const workerUrl = `https://${route.params.name}.${useRuntimeConfig().BASE_DOMAIN}`
 </script>
 
 <style>
