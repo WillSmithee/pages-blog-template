@@ -1,8 +1,10 @@
 import { defineNuxtConfig } from 'nuxt'
 import { fileURLToPath } from 'url'
 
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  publicRuntimeConfig: {
+    API_BASE_URL: process.env.API_BASE_URL
+  },
   alias: {
     'content': fileURLToPath(new URL('./functions', import.meta.url))
   },
@@ -14,7 +16,6 @@ export default defineNuxtConfig({
     '~/content',
     '~/functions',
   ],
-  // plugins: ['~/plugins/ckeditor-nuxt'],
   modules: ['@nuxt/content', '@nuxt/ui', '@nuxtjs/tailwindcss']
-  // modules: ['@nuxt/content', '@nuxt/ui']
 })
+
